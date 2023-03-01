@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body class="view--home">
+
+  
+  <div class="dropdown-content">
+    <ul class="toggleUl">
+      <li class="toggleList"><a href="index.html" class="toggleElem">Home</a></li>
+      <li class="toggleList"><a href="destination-moon.html"  class="toggleElem">Destination</a></li>
+      <li class="toggleList"><a href="crew-commander.html"  class="toggleElem">Crew</a></li>
+      <li class="toggleList"> <a href="technology-vehicle.html"  class="toggleElem">Technology</a></li>
+    </ul>
+  </div>
+
+    <nav class="navBar | row">
+      <svg viewBox="0 0 48 48" class="navImg" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+      <ol class="navList | row">
+        <li class="navList__Elem"><a class="nav__Link | is--active "href="index.html">Home</a></li>
+        <li class="navList__Elem"><a class="nav__Link " href="destination-moon.html">Destination</a></li>
+        <li class="navList__Elem"><a class="nav__Link" href="crew-commander.html">Crew</a> </li>
+        <li class="navList__Elem"><a class="nav__Link" href="technology-vehicle.html">Technology</a></li>
+      </ol>
+
+      <div class="dropdown">
+        <button class="toggleButton">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+
+    <header class="homeHeader | row">
+      <div class="homeHeader__Block">
+        <strong class="homeHeader__Strong">So, you   want to travel to</strong>
+        <h1 class="homeHeader__Title">Space</h1>
+        <p class="homeHeader__Text">Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+      </div>
+      <!-- <div class="homeHeader__Button">
+        <a href="#" class="buttonLink">Explore</a>
+      </div> -->
+      <a class="homeHeader__btn" href="destination-moon.html">
+        <span>Explore</span>
+      </a>
+    </header>
+    
+    <figure class="home__fig">
+      <picture>
+        <source media="(max-width:767px)" class="homeImg | db | fill" srcset="assets/home/background-home-mobile.jpg">
+        <source media="(max-width:1180px)" class="homeImg | db | fill" srcset="assets/home/background-home-tablet.jpg">
+        <img class="homeImg | db | fill" src="assets/home/background-home-desktop.jpg" alt="#"/>
+      </picture>
+    </figure>
+
+    <script src="app.js">
+  
+    </script>
+    
+  
+</body>
+</html>
